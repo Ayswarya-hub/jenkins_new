@@ -6,6 +6,7 @@ pipeline {
         stage('testing pipeline') {
           steps {
             echo 'test1'
+            mail(subject: 'BGDBHH', body: 'FNHTRN', to: 'FRN', from: 'RGN')
           }
         }
         stage('BUILD') {
