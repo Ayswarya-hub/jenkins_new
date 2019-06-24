@@ -4,7 +4,6 @@ pipeline {
     stage('testing pipeline') {
       steps {
         echo 'test1'
-        mail(subject: 'test pipeline', body: 'testing blue ocean', from: 'ayswarya.ashok@ducenit.com', replyTo: 'princy.catharine@ducenit.com', to: 'princy.catharine@ducenit.com')
       }
     }
   }
